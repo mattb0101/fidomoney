@@ -4,5 +4,25 @@
 }
 
 * {
-  font-family: "Niveau Grotesk", Arial, sans-serif;
+  font-family: niveau-grotesk, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .9rem;
+  line-height: 1.4rem;
+  text-decoration: none;
+}
+
+.btn--light-blue {
+  background-color: var(--light-blue);
+}
+
+.background-primary {
+  background: url( "background-prim.svg" ) no-repeat fixed center;
+  height: 100vh;
 }
