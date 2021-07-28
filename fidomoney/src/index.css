@@ -6,21 +6,30 @@
 * {
   font-family: niveau-grotesk, sans-serif;
   margin: 0;
-  box-sizing: border-box;
 }
 
-.nav-link {
+.nav-item a, .btn {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: .9rem;
-  line-height: 1.4rem;
   text-decoration: none;
 }
 
+/*------------------------------------Buttons */
+
 .btn--light-blue {
   background-color: var(--light-blue);
+  border-radius: 60px;
+  padding: 10px 30px !important;
+  
 }
+
+.btn--white-outline {
+  border-radius: 60px;
+  padding: 10px 30px !important;
+}
+
+
 
 .background-primary {
   background: url( "background-prim.svg" ) no-repeat fixed center;
